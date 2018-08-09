@@ -16,6 +16,20 @@ If you want to integrate on a new project, make sure you always test with signed
  With SHA-1 KEY Obtained from the previous step , navigate to https://console.developers.google.com/apis/dashboard and enable `Google+ API
 ` 
 
+Next move is to create credentials , https://console.developers.google.com/apis/credentials
+
+Click on `Create Credentials` to create a OAuth Client ID . Use the retrived `SHA-1 signing-certificate fingerprint` and your `package name` in config.xml to complete the step
+
+
+Once you completed this you'll get client ID, now you can process to ionic implementation.
+
+$ionic cordova plugin add cordova-plugin-googleplus --save --variable REVERSED_CLIENT_ID=myreversedclientid 
+
+If you are building a hybrid application (iOS and Android), or an Android application, you have to replace myreversedclientid with the reverse value of Client ID in your Release credential generated , on Google Developer's Console, this will be: "com.googleusercontent.apps.uniqueId", without quotes. Example: '123-abc123.apps.googleusercontent.com' becomes 'com.googleusercontent.apps.123-abc123'.
+
+Now all its done, play with your code . Make sure you always build and test with signed apk. So that you dont need to update SHA-1 Certificate of your APK everytime in the console
+
+
 
 Mapwize Venue View             |  List of Places in Venue
 :-------------------------:|:-------------------------:
