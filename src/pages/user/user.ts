@@ -1,9 +1,15 @@
-import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Object } from '../../app/app.types';
 import * as moment from 'moment';
 import { AuthProvider } from '../../providers/auth/auth';
+import { Component } from '@angular/core';
 import { HomePage } from '../home/home';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Object } from '../../app/app.types';
+/**
+ * @author Vivekanandan Sakthivelu
+ * @since 09 Aug 2018
+ * @description Page to list user information retrived from the 
+ * Google Auth Server
+ */
 @IonicPage()
 @Component({
   selector: 'page-user',
@@ -20,6 +26,7 @@ export class UserPage {
     this.userAttributes = this.params.get('user');
   }
 
+  //Logouts the user
   public logout() {
     this.auth.logOutGoogle().subscribe(response => {
       this.navigation.setRoot(HomePage);
