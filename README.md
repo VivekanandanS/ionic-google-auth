@@ -1,8 +1,16 @@
-Create a account in Google Developer Console https://console.developers.google.com/apis/
-Enable Google Plus API
-Google Plus API needs credentials to be created for enabling it
-Obtain Client ID and download client_id.json from the console
-Client ID 476306555433-hmu0bvcbigg952jf535gjlrgg8fcd8rf.apps.googleusercontent.com
+# Google+ Auth - Ionic Implementation
+ 
+ 
 
-Issue Faced:
-Could not find some class of google auth
+
+ 
+:-------------------------:|:-------------------------:
+![](https://github.com/VivekanandanS/ionic-mapwize/blob/master/src/assets/imgs/image2.png)  |  ![](https://github.com/VivekanandanS/ionic-mapwize/blob/master/src/assets/imgs/image1.png)
+
+Start Place            |  Swapped Place
+:-------------------------:|:-------------------------:
+![](https://github.com/VivekanandanS/ionic-mapwize/blob/master/src/assets/imgs/image3.png)  |  ![](https://github.com/VivekanandanS/ionic-mapwize/blob/master/src/assets/imgs/image4.png)
+
+Navigation View - Floor 2            |  Navigation View - Floor 1
+:-------------------------:|:-------------------------:
+![](https://github.com/VivekanandanS/ionic-mapwize/blob/master/src/assets/imgs/image5.png)  |  ![](https://github.com/VivekanandanS/ionic-mapwize/blob/master/src/assets/imgs/image6.png)
