@@ -1,6 +1,6 @@
-# Mapwize - Ionic Implementation
+# Google+ Auth - Ionic Implementation
  
- Mapwize is the Indoor Mapping platform for creating new digital services inside buildings. Mapwize maps are easy to build and even easier to integrate in your Wayfinding, Workspace Management, Maintenance or Security applications.
+As I wanted to integrate Google+ Auth in one my project, I started searching out documentation and tutorials for Google+ Auth Ionic Implementation. Unfortunat
  
  I have used their Javascript SDK to implement it in Ionic Application
  
