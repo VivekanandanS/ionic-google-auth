@@ -20,7 +20,7 @@ Next move is to create credentials , https://console.developers.google.com/apis/
 
 Click on `Create Credentials` to create a OAuth Client ID . Use the retrived `SHA-1 signing-certificate fingerprint` and your `package name` in config.xml to complete the step
 
-https://github.com/VivekanandanS/ionic-google-auth/blob/master/src/assets/imgs/googel.png
+![](https://github.com/VivekanandanS/ionic-google-auth/blob/master/src/assets/imgs/googel.png)
 
 Once you completed this you'll get client ID, now you can process to ionic implementation.
 
