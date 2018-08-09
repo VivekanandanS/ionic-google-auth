@@ -23,7 +23,7 @@ Click on `Create Credentials` to create a OAuth Client ID . Use the retrived `SH
 
 Once you completed this you'll get client ID, now you can process to ionic implementation.
 
-$ionic cordova plugin add cordova-plugin-googleplus --save --variable REVERSED_CLIENT_ID=myreversedclientid 
+`ionic cordova plugin add cordova-plugin-googleplus --save --variable REVERSED_CLIENT_ID=myreversedclientid `
 
 If you are building a hybrid application (iOS and Android), or an Android application, you have to replace myreversedclientid with the reverse value of Client ID in your Release credential generated , on Google Developer's Console, this will be: "com.googleusercontent.apps.uniqueId", without quotes. Example: '123-abc123.apps.googleusercontent.com' becomes 'com.googleusercontent.apps.123-abc123'.
 
