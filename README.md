@@ -4,13 +4,13 @@ As I wanted to integrate Google+ Auth in one my project, I started searching out
 
 If you want to integrate on existing Ionic App , use this command to retrive the SHA-1 KEY
 
-  keytool -exportcert -keystore D:\Personal\ionic-google-auth\gauth.keystore -list -v
+  `keytool -exportcert -keystore D:\Personal\ionic-google-auth\gauth.keystore -list -v`
   
 Here `D:\Personal\ionic-google-auth\gauth.keystore` is path to my APK 
 
 If you want to integrate on a new project, make sure you always test with signed APK , use the following command to generate SIGNED CERTIFICATE
 
- keytool -genkey -v -keystore gauth.keystore -alias gauth -keyalg RSA -keysize 2048 -validity 100000
+ `keytool -genkey -v -keystore gauth.keystore -alias gauth -keyalg RSA -keysize 2048 -validity 100000`
  
 
  
