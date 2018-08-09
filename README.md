@@ -13,7 +13,7 @@ If you want to integrate on a new project, make sure you always test with signed
  `keytool -genkey -v -keystore gauth.keystore -alias gauth -keyalg RSA -keysize 2048 -validity 100000`
  
 
- 
+ With SHA-1 KEY Obtained from the previous step , navigate to https://console.developers.google.com/apis/dashboard?project=testing-76216&folder&organizationId=645530657122&duration=PT1H 
 
 
 Mapwize Venue View             |  List of Places in Venue
