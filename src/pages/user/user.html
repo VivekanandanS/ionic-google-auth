@@ -1,0 +1,19 @@
+<ion-content>
+  <div class="cover">
+    <ion-row style="height: 100%;" justify-content-center align-items-center >
+        <img style="border-radius: 10em;height: 50%;border:1px solid white" src="{{ userAttributes['imageUrl'] }}">
+    </ion-row>
+  </div>
+  <div class="user">
+    <p><img height="17px" src="./assets/users.svg"><span style="padding-left: 10px"> {{ userAttributes['displayName'] }}</span></p>
+    <p><img height="17px" src="./assets/firstName.svg"><span style="padding-left: 10px"> {{ userAttributes['givenName'] }}</span></p>
+    <p><img height="17px" src="./assets/familyName.svg"><span style="text-transform: none;padding-left: 10px"> {{ userAttributes['familyName']  }}</span></p>
+    <p><img height="17px" src="./assets/id.svg"><span style="text-transform: none;padding-left: 10px">{{ userAttributes['userId'] }}</span></p>
+    <p><img height="17px" src="./assets/email.svg"><span style="text-transform: none;padding-left: 10px">{{ userAttributes['email'] }}</span></p>
+    <p><img height="17px" src="./assets/time.svg"><span style="text-transform: none;padding-left: 10px">Expires on {{ userAttributes['expires'] | date}}</span></p>
+    <p><img height="17px" src="./assets/chip.svg"><span style="text-transform: none;padding-left: 10px">{{ userAttributes['accessToken'] }}</span></p>
+  </div>
+  <button (click)="logout()" class="button" ion-button color="pink">
+     Log out
+  </button>
+</ion-content>

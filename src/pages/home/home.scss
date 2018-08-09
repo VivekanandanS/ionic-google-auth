@@ -1,3 +1,52 @@
 page-home {
+  .content {
+    background-image: url('../assets/background.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
 
+  .image {
+      font-size: 7em;
+      color: white;
+  }
+
+  .gbutton {
+    position: fixed;
+    bottom: 10%;
+    width: 90%;
+    left: 5%;
+    background: #f54756;
+    text-transform: none;
+    height: 3em;
+
+    ion-icon {
+      font-size: 30px;
+    }
+  }
+
+  .desc {
+    position: fixed;
+    bottom: 1%;
+    width: 90%;
+    left: 5%;
+    color: white;
+    font-weight: 100;
+  }
+
+  /* Ripple effect */
+  .ripple {
+    background-position: center;
+    transition: background .8s;
+  }
+
+  .ripple:hover {
+    background: #f54756 radial-gradient(circle, transparent 1%,  1%) center/15000%;
+  }
+
+  .ripple:active {
+    background-color: #f54756;
+    background-size: 100%;
+    transition: background 0s;
+  }
 }
