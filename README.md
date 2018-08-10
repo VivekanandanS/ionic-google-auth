@@ -6,7 +6,7 @@ If you want to integrate on existing Ionic App , use this command to retrive the
 
   `keytool -exportcert -keystore D:\Personal\ionic-google-auth\gauth.keystore -list -v`
   
-Here `D:\Personal\ionic-google-auth\gauth.keystore` is path to my APK 
+Here `D:\Personal\ionic-google-auth\gauth.keystore` is path to my keystore 
 
 If you want to integrate on a new project, make sure you always test with signed APK , use the following command to generate SIGNED CERTIFICATE
 
