@@ -32,11 +32,11 @@ Now all its done, play with your code . Make sure you always build and test with
 
 
 
-Mapwize Venue View             |  List of Places in Venue
+            |  
 :-------------------------:|:-------------------------:
 ![](https://github.com/VivekanandanS/ionic-google-auth/blob/master/src/assets/imgs/1.png)  |  ![](https://github.com/VivekanandanS/ionic-google-auth/blob/master/src/assets/imgs/2.png)
 
-Start Place            |  Swapped Place
+            |  
 :-------------------------:|:-------------------------:
 ![](https://github.com/VivekanandanS/ionic-google-auth/blob/master/src/assets/imgs/3.png)  |  ![](https://github.com/VivekanandanS/ionic-google-auth/blob/master/src/assets/imgs/4.png)
 
