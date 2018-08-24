@@ -32,11 +32,11 @@ Now all its done, play with your code . Make sure you always build and test with
 
 
 
-     GAuth       |  GAuth
+GAuth             |  GAuth
 :-------------------------:|:-------------------------:
 ![](https://github.com/VivekanandanS/ionic-google-auth/blob/master/src/assets/imgs/1.png)  |  ![](https://github.com/VivekanandanS/ionic-google-auth/blob/master/src/assets/imgs/2.png)
 
-         GAuth   |  GAuth
+GAuth            |  GAuth
 :-------------------------:|:-------------------------:
 ![](https://github.com/VivekanandanS/ionic-google-auth/blob/master/src/assets/imgs/3.png)  |  ![](https://github.com/VivekanandanS/ionic-google-auth/blob/master/src/assets/imgs/4.png)
 
